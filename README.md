@@ -1,6 +1,6 @@
 # Pizza Deprizza — Plataforma de Gestión Operativa
 
-Prototipo de la plataforma en un solo archivo HTML autocontenido, publicado como sitio web estático. Siete módulos en tres grupos: Operaciones (Inventarios y Compras, Procesos, Recursos Humanos), Administración (Ventas, Reportes y Proyecciones; Franquicias y Cumplimiento) y Estratégico (Módulo Financiero, Analytics y Dashboard Ejecutivo).
+Prototipo de la plataforma en un solo archivo HTML autocontenido, publicado como sitio web estático. Cuatro módulos en tres grupos: Operaciones (Inventarios y Compras), Administración (Ventas, Reportes y Proyecciones; Franquicias y Cumplimiento) y Estratégico (Análisis ejecutivo).
 
 ## Estructura
 
@@ -22,10 +22,10 @@ Prototipo de la plataforma en un solo archivo HTML autocontenido, publicado como
 
 ## Estado del prototipo
 
+- Los cuatro módulos están regenerados con el estándar DPZ-UX y se abren a pantalla completa desde el menú.
 - **Ventas** abre una portada con tres reportes: Pulso del día, Proyecciones de venta y Cortes de caja. Usa datos reales de la serie RBG (1 jul – 8 oct 2026).
-- **Analytics y Financiero** toman sus cifras de ventas del módulo Ventas (mes de referencia: septiembre 2026).
 - Toda la plataforma usa la paleta `Tema.*` de DPZ-UX-01, fuente Segoe UI y radios de 8, 12 y 16 px. No tiene modo oscuro.
-- Los demás módulos usan datos de ejemplo. Cada uno se regenerará desde su especificación DPZ-UX.
+- El contenido de `index.html` es el mismo que el artefacto publicado en claude.ai.
 - Los datos de referencia son los del punto de venta Soft Restaurant (`softrestaurant10`), según su diccionario de datos del 9 oct 2026.
 
 ## Publicar con GitHub Pages
